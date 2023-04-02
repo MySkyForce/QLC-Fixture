@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.12.6</Version>
+  <Author>koepe</Author>
+ </Creator>
+ <Manufacturer>eruolite</Manufacturer>
+ <Model>LED TMH-13</Model>
+ <Type>Moving Head</Type>
+ <Channel Name="Horizontal movement" Preset="PositionPan"/>
+ <Channel Name="Horizontal movement fine" Preset="PositionPanFine"/>
+ <Channel Name="Vertical movement" Preset="PositionTilt"/>
+ <Channel Name="Vertical movement fine" Preset="PositionTiltFine"/>
+ <Channel Name="Color-wheel" Preset="ColorWheelFine"/>
+ <Channel Name="Gobo wheel" Preset="GoboWheel"/>
+ <Channel Name="Strobe " Preset="ShutterStrobeSlowFast"/>
+ <Channel Name="Dimmer intensity &#13;" Preset="IntensityDimmer"/>
+ <Channel Name="PAN/TILT speed &#13;" Preset="SpeedPanTiltSlowFast"/>
+ <Channel Name="Internal program, music control" Preset="NoFunction"/>
+ <Channel Name="Special functions, reset " Preset="NoFunction"/>
+ <Physical>
+  <Bulb Type="LED" Lumens="0" ColourTemperature="0"/>
+  <Dimensions Weight="2.7" Width="158" Height="280" Depth="160"/>
+  <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+  <Focus Type="Fixed" PanMax="540" TiltMax="200"/>
+  <Technical PowerConsumption="30" DmxConnector="3-pin"/>
+ </Physical>
+</FixtureDefinition>
